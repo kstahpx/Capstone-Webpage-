@@ -119,9 +119,9 @@ span.psw {
 </head>
 <body>
 
-<h2>Login Page</h2>
+<h2> VEMS Login Page</h2>
 
-<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" align="middle">Login</button>
 
 <div id="id01" class="modal">
   
