@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>VEMS</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+      .column {
+        float: left;
+        width: 50%;
+}
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #4CAF50;
+}
+
+p {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+}
+#panel {
+  display: none;
+}
+    </style>
+  </head>
+  <body>
+
+<section>
+  <img class="mySlides" src="https://chopra.com/sites/default/files/field/image/Volunteers.jpg" width="100%" height = "600">
+  <img class="mySlides" src="https://www.npcc.us/wp-content/uploads/2014/10/High-School-Students-Volunteering.jpg" width="100%" height = "600">
+  <img class="mySlides" src="http://benefitofvolunteering.com/wp-content/uploads/2018/09/How-To-Start-Volunteering-620x330.jpg" width="100%" height = "600">
+  <script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+<div class="header">
+<section>
+  <h1> Volunteer Event Management System </h1>
+</section>
+<p style="text-align: center"> A gauranteed way of validating the participation of your volunteers.</p>
+<section>
+</div>
+       <script src="script.js"></script>
+</head>
+<body>
+
+<div class="row">
+<div class="column">
+    <p style="color:black;"> Text Goes Here </p>
+  </div>  
+
+
+
+<div class="column">
+  <p> this is so annoying</p>
+    </div>
+</div>
+
+<script>
+function myFunction() {
+  document.getElementById("panel").style.display = "block";
+}
+</script>
+
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
